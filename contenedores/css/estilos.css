@@ -1,0 +1,105 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+header{
+  display: flex;
+}
+.logo img{
+  height: 50px;
+}
+body {
+font-size: 1.6rem;
+
+}
+
+img {
+ max-width: 100%;
+}
+.entrada {
+ 
+  position: relative;
+ display: inline-block;
+  
+      
+}
+.contenedor{
+  max-width: 120rem;
+  margin: 0 auto;
+
+}
+
+.boton{
+  background-color: rgb(71, 211, 71);
+  width: 150px;
+  height: 45px;
+  position: absolute;
+  top: 170px;
+  left: 5%;
+  font-size: 25px;
+  
+
+}
+.boton1{
+  background-color: rgb(186, 209, 56);
+  width: 200px;
+  height: 45px;
+  position: absolute;
+  top: 170px;
+  left: 20%;
+  font-size: 25px;
+  
+
+}
+.lead{
+  position: absolute;
+  top: 120px;
+  left: 5%;
+  font-size: 25px;
+}
+.lead2{
+  position: absolute;
+  top: 10px;
+  left: 5%;
+  font-size: 60px;
+
+}
+.presentacion{
+  font-size: medium;
+  display: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+@media (min-widht:1400px){
+  .contenedor{
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-flow: row wrap;
+}
+
+.aside{
+  flex:1;
+}
+.main{
+  flex: 3;
+}
+.main img{
+  display: inline;
+}
+}
+.clearfix{
+  background-color: rgb(71, 66, 66);
+}
+footer h1{
+  color: white;
+}
+footer p{
+  color: white;
+}       
+footer a{
+  color: white;
+}
